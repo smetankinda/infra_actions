@@ -79,4 +79,4 @@ jobs:
           sudo docker pull smetankinda/infra_actions
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 admin/infra_actions
+          sudo docker run --rm -d -p 5000:5000 smetankinda/infra_actions
